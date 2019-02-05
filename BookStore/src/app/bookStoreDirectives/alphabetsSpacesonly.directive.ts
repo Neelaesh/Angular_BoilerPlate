@@ -17,7 +17,7 @@ export class AlphabetsSpacesOnly{
     @HostListener('keydown',['$event'])
     onkeydown(event : KeyboardEvent){
 
-        console.log("Current Values ",event.key);
+        console.log("Current Value ",event.key);
         if(this.specialKeys.indexOf(event.key) !== -1){
             return;
         }
