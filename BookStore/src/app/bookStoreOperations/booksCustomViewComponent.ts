@@ -30,7 +30,7 @@ export class BooksCustomViewComponent implements OnInit{
     ngOnInit(){
 
         this.booksCustomViewData = this._bookStoreCustomViewService.fetchViews();
-        console.log(this.booksCustomViewData);
+        console.log("Book Topics Selected ",this.booksCustomViewData);
     }
 
     submitViews(formValue: any){
