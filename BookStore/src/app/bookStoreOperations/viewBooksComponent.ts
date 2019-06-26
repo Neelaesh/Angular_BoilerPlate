@@ -33,7 +33,7 @@ export class ViewBooksComponent implements OnInit{
         this.books = this._bookStoreService.getAllBooks();
         console.log("Books Stock ",this.books);
         this.customView = this._bookStoreCustomViewService.fetchViews();
-        console.log("Custom Views ",this.customView);
+        console.log("Custom View ",this.customView);
     }
 
     selectedBook(bookId:any,isSelected:any,books:any){
